@@ -1,5 +1,6 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="en" xmlns:th="http://www.w3.org/1999/xhtml">
+
 <head>
     <meta charset="UTF-8">
     <link rel="stylesheet" type="text/css" href="stylesheet/style.css">
@@ -12,10 +13,7 @@
     </h1>
     <h3>Frontlinien i kampen mod madspild..</h3>
     <hr>
-    <nav>
-        <a href="index">Home</a>
-        <a href="form">Skriv et opslag</a>
-        <a href="dashboard">Opslagstavlen</a>
+    <nav th:replace="fragments :: pageLinks">
     </nav>
     <hr>
 </header>
@@ -32,10 +30,7 @@
 </div>
     <footer id="foot">
         <hr>
-        <nav>
-            <a href="index">Home</a>
-            <a href="form">Skriv et opslag</a>
-            <a href="dashboard">Opslagstavlen</a>
+        <nav th:replace="fragments :: pageLinks">
         </nav>
         <hr>
 

@@ -78,7 +78,9 @@ header nav a{
     color: cornsilk;
 }
 #foot{
-    position: center;
+    margin-bottom: 5px;
+    position: fixed;
+
 }
 #foot nav{
     display: flex;

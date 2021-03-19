@@ -2,7 +2,8 @@
 <html lang="en" xmlns:th="http://www.w3.org/1999/xhtml">
 <head>
     <meta charset="UTF-8">
-    <link rel="stylesheet" href="stylesheet/style.css">
+    <meta name="viewport" content="width=device=width, initial-scale=1">
+    <link rel="stylesheet" type="text/css" href="stylesheet/style.css">
     <title>Opslagstavlen</title>
 </head>
 <body class="dashboard">
@@ -12,10 +13,7 @@
     </h1>
     <h3>Frontlinien i kampen mod madspild..</h3>
     <hr>
-    <nav>
-        <a href="index">Home</a>
-        <a href="form">Skriv et opslag</a>
-        <a href="dashboard">Opslagstavlen</a>
+    <nav th:replace="fragments :: pageLinks">
     </nav>
     <hr>
 </header>
@@ -34,10 +32,7 @@
 </div>
 <footer id="foot">
     <hr>
-    <nav>
-        <a href="index">Home</a>
-        <a href="form">Skriv et opslag</a>
-        <a href="dashboard">Opslagstavlen</a>
+    <nav th:replace="fragments :: pageLinks">
     </nav>
     <hr>
 
