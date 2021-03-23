@@ -1,6 +1,6 @@
 body{
-    background-image: url("../img/formanresten1.jpg");
-    size: 1200px;
+    /*background-image: url("../img/formanresten1.jpg");
+    size: 1200px;*/
 }
 
 header{
@@ -9,20 +9,22 @@ header{
 
 }
 header h1{
-    color: cornsilk;
+    color: black;
     margin-top:2px;
+    text-align: center;
 
 }
 header h3{
-    color: cornsilk;
+    color: black;
+    text-align: center;
 }
 header nav{
     display: flex;
-    color: cornsilk;
+    color: black;
 }
 header nav a{
     flex-grow:1;
-    color: cornsilk;
+    color: black;
 
 }
 
@@ -31,13 +33,14 @@ header nav a{
     width: 89%;
     text-align: center;
     margin-top: 0.5rem;
-    color: cornsilk;
+    color: black;
     margin-left:50px;
 
 
 }
 .flex-box2{
     display: flex;
+    justify-content: space-around;
     width: 100%;
 
 
@@ -47,8 +50,8 @@ header nav a{
 }
 .consumer-section{
 
-    text-align: left;
-    color: cornsilk;
+    text-align: center;
+    color: black;
     width: 200px;
     flex-grow:1;
 
@@ -60,7 +63,7 @@ header nav a{
 
 .company-section{
     text-align: center;
-    color: cornsilk;
+    color: black;
     width: 200px;
     flex-grow:2;
 
@@ -69,16 +72,19 @@ header nav a{
 }
 .organisation-section{
 
-    text-align: right;
-    color: cornsilk;
+    text-align: center;
+    color: black;
     width: 200px;
     flex-grow:1;
 }
 #dashboard-page{
-    color: cornsilk;
+    color: black;
 }
 #foot{
     position: center;
+    width: 100%;
+    height: 150px;
+    text-align: center;
 }
 #foot nav{
     display: flex;
@@ -86,10 +92,10 @@ header nav a{
 }
 #foot a{
     flex-grow: 1;
-    color: cornsilk;
+    color: black;
 }
 #foot-text p{
-    color: cornsilk;
+    color: black;
     text-align: center;
 
 }
