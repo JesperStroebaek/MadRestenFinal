@@ -1,6 +1,14 @@
 body{
     /*background-image: url("../img/formanresten1.jpg");
     size: 1200px;*/
+    background-color: white;
+
+
+}
+
+html{
+
+
 }
 
 header{
@@ -83,7 +91,6 @@ header nav a{
 #foot{
     position: center;
     width: 100%;
-    height: 150px;
     text-align: center;
 }
 #foot nav{
